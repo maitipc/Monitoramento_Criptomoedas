@@ -1,0 +1,42 @@
+:: Monitoramento de Criptomoedas em Tempo Real ::
+
+Este projeto implementa um sistema integrado para monitorar o mercado de criptomoedas em tempo real, unindo ingestão de dados, armazenamento e visualização interativa em um único fluxo.
+
+Com o Apache Kafka, recebemos dados de cotações via API, filtramos e armazenamos no MongoDB, garantindo agilidade e consistência. Por fim, disponibilizamos os resultados em uma web app com Streamlit, onde é possível acompanhar gráficos e tabelas atualizadas em tempo real.
+
+Além de ser um exercício prático de engenharia de dados aplicada, este projeto também pode ser útil para quem acompanha o mercado cripto e deseja visualizar informações de forma simples e rápida.
+
+→ Nota: Para executar o projeto, é necessário uma api key do coincap. Essa api key deve ser inserida dentro do arquivo config.conf
+Eu removi a minha api key neste projeto por questões de segurança. Para gerar uma api key própria, é necessário fazer sign up no coincap.
+
+:: COMO EXECUTAR ::
+
+1. Abra o terminal ou prompt, navegue até a pasta com os arquivos e execute o comando abaixo para criar os containers Docker:
+
+docker-compose up -d
+
+→ Nota: Antes de executar o comando, lembre-se de inicializar o docker engine, abrindo o Docker Desktop.
+
+-- 
+
+2. Executar o jupyter notebook:
+
+O comando a seguir vai executar o jupyter notebook, abrindo o navegador padrão:
+jupyter notebook
+
+Então, acessar cada jupyter notebook e executar na sequência.
+
+--
+
+3. Executar a app web, que é onde o usuário terá acesso a todos os dados de forma visual:
+Usamos a biblioteca Streamlit para exibir os resultados.
+Para isso, abrir outro terminal e executar:
+
+streamlit run dsa-app.py
+
+
+
+
+
+
+
