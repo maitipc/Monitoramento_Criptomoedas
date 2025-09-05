@@ -17,7 +17,7 @@ CoinCap API → fonte gratuita de dados de mercado de criptomoedas
 <br />
 📊 <b>Como funciona o fluxo de dados</br>
 <br />
-Coleta de dados → Usamos a API do CoinCap.io para extrair informações de cotações de criptomoedas em tempo real.
+Coleta de dados → Usamos a API do CoinCap.io para extrair informações de cotações de criptomoedas em tempo real.<br /><br />
 
 Ingestão com Kafka → Os dados brutos são enviados para o Apache Kafka, garantindo processamento assíncrono e sem perda de mensagens.
 
