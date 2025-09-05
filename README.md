@@ -36,7 +36,7 @@ O volume de dados é moderado e não há necessidade de processamento distribuí
 <br />
 <b>Benefícios desse projeto</b>
 <br /><br />
-✅ Praticar o uso do Apache Kafka em cenários reais
-✅ Construir um pipeline de dados de ponta a ponta
-✅ Criar um dashboard em tempo real para análise de mercado
-✅ Útil para estudantes de engenharia de dados e também para investidores de criptomoedas
+✅ Praticar o uso do Apache Kafka em cenários reais<br />
+✅ Construir um pipeline de dados de ponta a ponta<br />
+✅ Criar um dashboard em tempo real para análise de mercado<br />
+✅ Útil para estudantes de engenharia de dados e também para investidores de criptomoedas<br />
