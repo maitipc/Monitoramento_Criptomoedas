@@ -4,7 +4,7 @@ Este projeto, desenvolvido na Data Science Academy, tem como objetivo construir 
 
 <br />
 
-🔧 <b>Tecnologias utilizadas</b>
+<b>:: Tecnologias utilizadas ::</b>
 
 Apache Kafka → para ingestão assíncrona de dados de cotações via API
 
@@ -15,7 +15,7 @@ Streamlit → para visualização em tempo real em formato de dashboard interati
 CoinCap API → fonte gratuita de dados de mercado de criptomoedas
 
 <br />
-📊 <b>Como funciona o fluxo de dados</br>
+<b>:: Como funciona o fluxo de dados ::</br>
 <br />
 Coleta de dados → Usamos a API do CoinCap.io para extrair informações de cotações de criptomoedas em tempo real.<br /><br />
 
@@ -28,7 +28,7 @@ Armazenamento → O MongoDB foi escolhido por sua flexibilidade e porque o proje
 Visualização → Criamos uma aplicação web interativa em Streamlit, que consulta o MongoDB e apresenta os dados em tabelas e gráficos em tempo real.
 
 <br />
-💡 <b>Por que não usei PySpark?</b>
+<b>:: Por que não usei PySpark? ::</b>
 <br /><br />
 Embora o PySpark seja uma ferramenta poderosa para processamento em larga escala, neste projeto ele seria um canhão para matar um mosquito.
 O volume de dados é moderado e não há necessidade de processamento distribuído. Kafka + MongoDB já atendem perfeitamente ao objetivo.
